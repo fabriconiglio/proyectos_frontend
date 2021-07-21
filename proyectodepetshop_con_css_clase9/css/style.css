@@ -1,0 +1,164 @@
+.barra_de_arriba{
+    color: #F3F3F3;
+}
+
+#banner{
+    background-image: url("../img/banner.png");
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+.categorias{
+    font-family:'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.comedores{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #3C2313;
+}
+
+.comedores1{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:  #F0A83E;
+    height: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.descripcion{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+}
+
+footer{
+    background-color: #F0A83E;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color:#FFFFFF
+}
+
+.gato{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+header{
+    background-color: #222222;
+}
+
+h1{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+h2{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+#iconos{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+
+}
+
+.juguete{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.menu{
+    background-color: #F0A83E;
+}
+
+.titulo1{
+    width: 57.21px;
+    height: 23px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #3C2313;
+    left: calc(50% - 57.21px/2 - 425.4px);
+    top: 39px;
+}
+
+.titulo2{
+    width: 96.35px;
+    height: 23px;
+    left: calc(50% - 96.35px/2 - 356.82px);
+    top: 39px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.partedeabajo{
+    background-color: #3C2313;
+}
+
+.perro{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+color: #F0A83E;
+
+}
+
+.precio{
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E; 
+}
+
+section{
+    background-color: #FAFAF6;
+}
