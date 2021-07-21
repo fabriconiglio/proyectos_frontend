@@ -1,0 +1,61 @@
+a{
+    color: rgb(20, 18, 18);
+}
+
+#datos{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#formacion{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #005677;
+}
+
+#fabrizzio{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+h3{
+    top: 10000px;
+    font-size: 20px;
+    color:#005677;
+    background-color: #C4C4C4;
+    line-height: 1.6;
+}
+
+header{
+    background-image:url("../img/7bd4dfa8483188087ccc066655ac2927.jpg");
+    text-align: center;
+    width: 100%;
+    height: 189px;
+    left: 0px;
+    top: 50%;
+    line-height:2,6;
+    color:wheat;
+    }
+
+.piedepagina{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Times New Roman;
+    line-height: 1.6;
+}
+
+.prueba{
+    background-image: url("../img/DSC_0290.jpg");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position-x: 23%;
+}
+
+#sobremi{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:#C4C4C4;
+}
