@@ -1,0 +1,677 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+
+.articulo1 img{
+    position: absolute;
+    width: 67px;
+    height: 71px;
+    left: 479px;;
+    top: 510px;
+}
+
+.articulo1 h1{
+    position: absolute;
+    width: 450px;
+    height: 47px;
+    top: 586px;
+    left: 290px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
+}
+
+.articulo1 ul{
+    display: flex;
+}
+
+.articulo1 ul{
+    position: absolute;
+    width: 267px;
+    height: 18px;
+    left: 349px;
+    top: 653px;
+    text-align: center;
+}
+
+.articulo1 li{
+    margin-left: 31px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.banner{
+    background-image: url("../img/banner de comida para perros.png");
+    width: 1025px;
+    height: 409px;
+    left: calc(50% - 1025px/2 + 0.5px);
+    top: 81px;
+}
+
+.boton1{
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.boton2{
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: 201px;
+    background-color: #8A8787;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+
+.boton3{
+    position: absolute;
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 + 64px);
+    top: 201px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.boton4{
+    position: absolute;
+    width: 70px;
+    height: 34px;
+    left: calc(50% - 70px/2 + 430px);
+    top: 13px;
+    background: #3C2313;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.caja1{
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    background-color: #222222;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F3F3F3;
+}
+
+.caja1 p{
+    width: 100%;
+    height: 12px;
+    margin-left:90px;
+    margin-top:4px;
+}
+
+.calle{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    top: 46px;
+    bottom: 243px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;        
+    color: #8A8787;
+}
+
+.comedores{
+    position:absolute;
+    width:100%;
+    height:19px;
+    top: 303px;
+    left: 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:#3C2313;
+}
+
+.churrasquito{
+    position: absolute;
+    width: 265px;
+    height: 312px;
+    left: 95px;
+    top: 720px;
+    background-image: url("../img/churrasquito.png");
+}
+
+.comedor{
+    position: absolute;
+    width: 264px;
+    height: 312px;
+    left: 380px;
+    top: 720px;
+    background-image: url("../img/comedero.png");
+}
+
+.correo{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: 99px;
+    background-color: #3C2313;
+    border-radius: 15px;
+}
+
+.correo p{
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 14px;
+    top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.correo2{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    top: 195px;
+    bottom: 255px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.contactos{
+    position: absolute;
+    width: 1024px;
+    height: 284px;
+    left: calc(50% - 1024px/2);
+    top:1016px;
+    bottom: 17px;
+    background: #3C2313;
+}
+
+.descripcion1{
+    position: absolute;
+    width: 160.54px;
+    height: 19.64px;
+    left: 51px;
+    top: 269px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.descripcion2{
+    position: absolute;
+    width: 160.54px;
+    height: 19.64px;
+    left: 69px;
+    top: 269px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.descripcion3{
+    position: absolute;
+    width: 160.54px;
+    height: 19.64px;
+    left: 69px;
+    top: 269px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+}
+
+.descripcion4{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: calc(50% - 288px/2 - 295px);
+    top:20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.direccion{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    top: 215px;
+    bottom: 243px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;        
+    color: #8A8787;
+}
+
+.direccion{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    top: 215px;
+    bottom: 243px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;        
+    color: #8A8787;
+}
+
+
+.derechos{
+    position: absolute;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    top: 1293px;
+    bottom: 0px;
+    background-color: #222222;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.derechos p{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    bottom: 4px;        
+}
+
+footer{
+    position:absolute;
+    width: 1024px;
+    height: 358px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: 9px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+}
+
+.huesito{
+    background-image: url("../img/Huesito.png");
+    position: absolute;
+    width: 265px;
+    height: 312px;
+    left: 664px;
+    top: 720px;
+}
+
+.informacion{
+    position: absolute;
+    width: 340px;
+    height: 264px;
+    left: 343px;
+    top: 1110px;
+}
+
+.informacion h3{
+    position: absolute;
+    width: 143px;
+    height: 29px;
+    left: calc(50% - 143px/2 + 7.5px);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+}
+
+.icono{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top:20px;
+}
+
+.icono2{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top:109px;
+}
+
+.icono3{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 70px;
+    top:195px;
+}
+
+.icono5{
+    position: absolute;
+    left: 23px;
+    right: 0%;
+    top: 19.86px;
+    bottom: 24.65%;
+}
+
+.menu{
+    width: 1024px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    left: calc(50% - 1024px/2);
+    top: 20px;
+    background-color: #F0A83E;
+}
+
+.menu img{
+    width: 166.38px;
+    height: 23px;
+    margin-left: 40px;
+    margin-top: 19px;
+}
+
+.menu nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 343px;
+    height: 15px;
+    margin-right: 40px;
+    margin-top: 23px;
+}
+
+.navegador1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegador1 ul .español{
+    width: 46px;
+    height: 12px;
+    margin-top: 4px;
+}
+
+.navegador1 ul .arg{
+    width: 26px;
+    height: 12px;
+    margin-right:60px;
+    margin-left:20px;
+    margin-top: 4px;
+}
+
+.nombre{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: 49px;
+    background-color: #3C2313;
+    border-radius: 15px;
+}
+
+.nombre p{
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 14px;
+    top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.numero{
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    top: 129px;
+    bottom: 243px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;        
+    color: #8A8787;
+}
+
+.localidad{
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    top: 23px;
+    bottom: 255px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.logo2{
+    position: absolute;
+    width: 166px;
+    height: 23px;
+    left: 788px;
+    top: 130px;
+}
+
+.productos{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.precio1{
+    position: absolute;
+    width: 38.49px;
+    height: 19.64px;
+    left: 112px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.precio2{
+    position: absolute;
+    width: 38.49px;
+    height: 19.64px;
+    left: 120px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.precio3{
+    position: absolute;
+    width: 38.49px;
+    height: 19.64px;
+    left: 112px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+}
+
+.productos{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suscripcion{
+    position: absolute;
+    width: 1024px;
+    height: 60px;
+    left: calc(50% - 1024px/2);
+    top: 959px;
+    background-color: #F0A83E;
+}
+
+.suscripcion div{
+    position: absolute;
+    width: 271px;
+    height: 40px;
+    left: calc(50% - 271px/2 + 254.5px);
+    top: 10px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+.suscripcion div p{
+    position: absolute;
+    width: 115px;
+    height: 11px;
+    left:8px;
+    top: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+.titulo1{
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    left: 648px;
+    top: 237px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.telefono{
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: 149px;
+    background-color: #3C2313;
+    border-radius: 15px;
+}
+
+.telefono p{
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    left: 14px;
+    top: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF;
+}
+
+.telefono2{
+    position: absolute;
+    width: 88px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    top: 109px;
+    bottom: 255px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.vector{
+    position: absolute;
+    width: 5.5px;
+    height: 2.75px;
+    left: 910px;
+    top: 9px;
+    border: 1px solid #F3F3F3;
+}
+
+.vector2{
+    position: absolute;
+    width: 5.5px;
+    height: 2.75px;
+    left: 966px;
+    top: 9px;
+    border: 1px solid #F3F3F3;
+}
