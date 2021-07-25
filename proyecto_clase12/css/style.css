@@ -5,6 +5,8 @@
     font-family: 'Roboto', sans-serif;;
 }
 
+
+
 .articulo1 img{
     position: absolute;
     width: 67px;
@@ -660,18 +662,18 @@ h2{
 
 .vector{
     position: absolute;
-    width: 5.5px;
-    height: 2.75px;
+    width: 10px;
+    height: 9px;
     left: 910px;
-    top: 9px;
+    top: 6px;
     border: 1px solid #F3F3F3;
 }
 
 .vector2{
     position: absolute;
-    width: 5.5px;
-    height: 2.75px;
+    width: 10px;
+    height: 9px;
     left: 966px;
-    top: 9px;
+    top: 6px;
     border: 1px solid #F3F3F3;
 }
