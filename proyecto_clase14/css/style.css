@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Encabezado de la pagina */
+
+header{
+    position: relative;
+    height: 78px;
+}
+
+h2{
+    background-color:#D1891C;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    height: 30px;
+}
+
+
+h1{
+    background-color:#00669F;
+    height: 48px;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* Cuerpo de la pagina */
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 40rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F3;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.5rem 1.5rem 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.batman{
+    background-image: url("../img/fondos/batman.png");
+}
+
+.mujer{
+    background-image: url("../img/fondos/mujer maravilla.png");
+}
+
+.superman{
+    background-image: url("../img/fondos/superman.png");
+}
+
+.harley{
+    background-image: url("../img/fondos/harley.png");
+}
+
+.imagen{
+    border-radius: 50%;
+    width: 60%;
+}
+
+.corazon{
+    position: relative;
+    left: -140px;
+    top: -10px;
+    width: 2.5rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: -2rem;
+}
+
+p{
+    text-align:left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+button{
+    background: #00669F;
+    border-radius: 7px;
+    width: 10rem;
+    height: 2.5rem;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+/* Pie de pagina */
+
+footer{
+    height: 5rem;
+    background-color: #00669F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.derechos{
+    margin-bottom: -10px;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+}
+
+.git{
+    width: 5rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* Estructura para tablet */
+
+@media (min-width:460px){
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .card{
+        width: 450px;
+        height: 40rem;
+    }
+
+    .corazon{
+        position: relative;
+        left: -175px;
+        margin-top: 10px;
+    }
+
+    h3{
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: normal;
+        margin-top: -1rem; 
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .git{
+        width: 5rem;
+        height: 2rem;
+        margin-top: 20px;
+    }
+
+    .derechos{
+        position: relative;
+        margin-left: 300px;
+        margin-top: 15px;
+    }
+}
+
+/* Estructura para escritorio */
+
+@media (min-width:1280px){
+    section{
+        height: 800px;
+    }
+
+}
