@@ -42,8 +42,8 @@ section{
 }
 
 .card{
-    height: 40rem;
-    width: 95%;
+    height: 37rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     background-color: #F3F3F3;
@@ -55,7 +55,7 @@ section{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 1rem;
     margin-top: 1rem;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
 }
 
 .batman{
@@ -81,17 +81,17 @@ section{
 
 .corazon{
     position: relative;
-    left: -140px;
-    top: -10px;
+    left: -110px;
+    top: -5px;
     width: 2.5rem;
 }
 
 h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: normal;
-    margin-top: -2rem;
+    margin-top: -1rem;
 }
 
 p{
@@ -111,6 +111,23 @@ button{
     font-weight: normal;
     color: white;
 }
+
+.circulo{
+    position: relative;
+    width: 38px;
+    height: 40px;
+    bottom: 1870px;
+    left: 20rem;
+}
+
+.signo{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 1881px;
+    left: 17.9rem;
+}
+
 
 /* Pie de pagina */
 
@@ -148,8 +165,10 @@ footer{
     }
 
     .card{
-        width: 450px;
-        height: 40rem;
+        width: 400px;
+        height: 38rem;
+        margin-right:80px;
+        margin-left:20px;
     }
 
     .corazon{
@@ -184,13 +203,60 @@ footer{
         margin-left: 300px;
         margin-top: 15px;
     }
+
+    .circulo{
+        position: relative;
+        bottom:41rem;
+        width: 60px;
+        height: 60px;
+        left:955px;
+    }
+
+    .signo{
+        position: relative;
+        bottom:42rem;
+        width: 30px;
+        height: 30px;
+        left:905px;
+    }
+
 }
 
 /* Estructura para escritorio */
 
 @media (min-width:1280px){
+    header{
+        width: 2200px;
+    }
     section{
-        height: 800px;
+        width: 2200px;
+        height: 1000px;
     }
 
+    .card{
+        margin-left: 1rem;
+    }
+
+    footer{
+        display: flex;
+        justify-content:space-between;
+        width: 2200px;
+    }
+
+    .derechos{
+        text-align: center;
+        left: 600px;
+    }
+
+    .git{
+        margin-right: 10px;
+    }
+
+    .circulo{
+        display: none;
+    }
+
+    .signo{
+        display: none;
+    }
 }
