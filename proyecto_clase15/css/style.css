@@ -118,6 +118,7 @@ h1{
     font-weight: bold;
     font-size: 40px;
     color: #3C2313;
+    width: 450px;
 }
 
 .variedades{
@@ -128,6 +129,7 @@ h1{
     font-weight: normal;
     font-size: 15px;
     color: #666666;
+    width: 450px;
 }
 
 section{
@@ -158,7 +160,8 @@ section article{
 .contactos{
     position: relative;
     left: 630px;
-    top:100px
+    top:100px;
+    width: 450px;
 }
 
 .contactos h3{
