@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir tu super</title>
+    <link rel="stylesheet" href="css/boton.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link href = "https: //fonts.googleapis.com/css2? family = Roboto & display = swap "rel =" stylesheet ">
+</head>
+</head>
+<body>
+<!-- Encabezado de la pagina -->
+    <header>
+        <article class="descuentos">
+            <p>20% de descuento en todos los productos!</p>
+        </article>
+        <article class="titulo">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Nombre Tienda</h1>
+        </article>
+        <article class="menu">
+            <nav>
+                <ul>
+                    <li type="none"><a href="contacto.html">Contacto</a></li>
+                    <li type="none"><a href="registro.html">Registrarme</a></li>
+                    <li type="none"><a href="ingreso.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </article>
+    </header>
+<!-- Cuerpo de la pagina -->
+    <main>
+        <section>
+            <h2>Añadí tu super!</h2>
+            <p class="personaje">Agregá tu personaje favorito completando las opciones.</p>
+            <form action="#" method="GET" class="formulario1">
+                <div class="nombre">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div class="especies">
+                    <label for="especies">*Especies</label>
+                    <select name="especies" id="especies" required>
+                        <option value="ning">Ninguno</option>
+                        <option value="Dios">Dios</option>
+                        <option value="Superhm">Superhumano</option>
+                    </select>
+                </div>
+            </form>
+            <form action="#" method="GET" class="formulario2">
+                <div class="fecha">
+                    <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" value="dd/mm/aaaa" min="1960/01/01" id="fecha" required>
+                </div>
+                <div class="foto">
+                    <label for="">Agregar Foto</label>
+                    <input type="file" name="avatar" accept=".jpg" required>
+                </div>
+            </form>
+            <form action="#" method="POST" class="formulario3">
+                <div>
+                    <textarea name="descripcion" id="descripcion" placeholder="hola" cols="30" rows="10">
+                    </textarea>
+                </div>
+                <div class="poderes">
+                    <label for="">Poderes</label>
+                        <p><input type="checkbox" name="poderes" value="Volar" >Volar</p>
+                        <p><input type="checkbox" name="poderes" value="SuperInteligencia">SuperInteligencia</p>
+                        <p><input type="checkbox" name="poderes" value="Vistaderayoláser">Vista de rayo láser</p>
+                        <p><input type="checkbox" name="poderes" value="Billetera gorda">Billetera gorda</p>
+                    <hr>
+                        <label for="">Tipo de personaje</label>
+                        <p><input type="radio" name="personajes" value="Héroe / Heroina">Héroe / Heroina</p>
+                        <p><input type="radio" name="personajes" value="Villano / Villana">Villano / Villana</p>
+                </div>
+            </form>
+            <button type="submit">Añadir</button>
+        </section>
+    </main>
+<!-- Pie de pagina -->
+    <footer>
+        <article>
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </article>
+    </footer>
+</body>
+</html>
