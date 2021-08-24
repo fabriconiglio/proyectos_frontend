@@ -1,0 +1,423 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Encabezado de la pagina */
+header{
+    width:100%;
+    height: 5.62rem;
+    background-color: #222222;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header .logos{
+    margin-left: 1.25rem;
+    margin-top: 0;
+    width: 12.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    margin-right:1.25rem ;
+}
+
+nav{
+    display: none;
+}
+
+/* Cuerpo de la pagina */
+main{
+    width: 100%;
+    height: 131rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Caja 1 */
+.caja1{
+    height: 32rem;
+    background-image: url("../img/logos y fondos/Fondo.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    height: 8.3rem;
+    margin-left: 2.43rem;
+    margin-right:2.43rem ;
+    margin-top: 8.37rem;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 2.9rem;
+    text-align: center;
+    color:white;
+}
+
+span{
+    font-size: 1.8rem;
+    font-style: normal;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #D01418;
+}
+
+.caja1 button{
+    margin-top: 3.125rem;
+    width: 220px;
+    height: 61px;
+    background-color: #D01418;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    font-style: normal;
+    color: #F3F3F3;
+    border: none;
+}
+
+/* Caja 2 */
+.caja2{
+    background-color: #F3F3F3;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 1.56rem;
+    margin-bottom:1.56rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+    color: #000000;
+}
+
+.juegos{
+    width: 15rem;
+    height: 20.12rem;
+    margin-bottom: 1.87rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.imagen{
+    margin-top: 1.87rem;
+    margin-left: 3.43rem;
+}
+
+hr{
+    margin-top: 1.87rem;
+}
+
+.caracteristicas{
+    margin-top: 1.31rem;
+    margin-left:1.25rem ;
+}
+
+#precio{
+    margin-bottom: 0.25rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    color: #000000;
+}
+
+#cuotas{
+    margin-bottom: 0.19rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.81rem;
+    line-height: 0.93rem;
+    color: #000000;
+}
+
+#envio{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    color: #619D00;
+}
+/* Caja3 */
+.caja3{
+    background-color: #F3F3F3 ;
+    width: 18rem;
+    height: 18.43rem;
+    margin-top: 3.43rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja3 h2{
+    margin-top: 0;
+}
+
+
+
+.fondo1{
+    background-image: url("../img/banners/banner 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 6.75rem;
+    margin-top:0;
+    margin-left:0
+}
+
+.fondo1 .accesorios{
+    padding-top: 2.81rem;
+    margin-left: 10.81rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.93rem;
+    line-height: 1.125rem;
+    color: #F3F3F3;
+}
+
+.fondo2{
+    background-image: url("../img/banners/banner 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 6.75rem;
+    margin-top:1.5rem;
+    margin-left:0
+}
+
+.fondo2 .accesorios{
+    padding-top: 2.81rem;
+    padding-right: 1rem;
+    margin-left: 10.81rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.93rem;
+    line-height: 1.125rem;
+    color: #F3F3F3;
+}
+/* Pie de pagina */
+footer{
+    width: 100%;
+    height: 13.5rem;
+}
+
+footer .redessociales{
+    height: 191px;
+    background-color:  #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logos2{
+    margin-top: 1.25rem;
+}
+
+.redessociales article{
+    width: 10.5rem;
+    height: 5.06rem;
+    margin-top: 1.93rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.81rem;
+    color: #F3F3F3;
+}
+
+.redessociales article div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.derechos{
+    height: 1.57rem;
+    background-color: #C4C4C4;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+    color: #000000;
+    text-align: center;
+    padding-top: 0.43rem;
+}
+/* Version escritorio */
+
+@media (min-width: 1280px) {
+/* Encabezado de la pagina */
+    .logos img{
+        margin-left: 1.25rem;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    nav{
+        display:block;
+        width: 21rem;
+        height: 1.5rem;
+        margin-right: 2.18rem;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-weight: bold;
+        font-size: 1rem;
+        line-height: 1.18rem;
+        color: #F3F3F3;
+    }
+
+    li{
+        margin-left:0.5rem ;
+    }
+
+    ul img{
+        margin-left: 2.8rem;
+    }
+    
+/* Cuerpo de la pagina */  
+    main{
+        height: 80.56rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .caja1{
+        background-image: url("../img/logos y fondos/fondo 2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1,span{
+        height: 2.93rem;
+        margin-top: 11.68rem;
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+        
+    }
+
+    .caja1 button{
+        margin-top:1.87rem;
+        width: 13.75rem;
+        height: 3.81rem;
+    }
+
+    .caja2{
+        height: 48.56rem;
+    }
+
+    .caja2 .contenedor{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 21.37rem;
+    }
+    .caja2 h2{
+        margin-top:2.5rem;
+    }
+
+    .juegos{
+        width: 16.56rem;
+        height: 20.12rem;
+        margin-left: 5.8rem;
+        margin-right: 5.8rem;
+    }
+
+    .caja3{
+        width: 52.125rem;
+        height: 11.87rem;
+        margin-top:0;
+    }
+
+    .contenedor2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fondo1,.fondo2{
+        width: 361px;
+        height: 135px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left:57px;
+        margin-right: 57px;
+    }
+
+    .fondo2{
+        margin-top: 0;
+    }
+
+    .fondo1 .accesorios{
+        height: 29px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+        margin-top: 0.5rem;
+        margin-left: 13.25rem;
+    }
+
+    .fondo2 .accesorios{
+        height: 29px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+        margin-top: 0.5rem;
+        margin-left: 11.56rem;
+    }
+/* Pie de pagina */
+    footer .redessociales{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logos2{
+        margin-left: 4.68rem;
+    }
+
+    .logos2 img{
+        margin-left: 1.25rem;
+    }
+
+    footer article{
+        margin-right: 4.68rem;
+    }
+
+}
+
