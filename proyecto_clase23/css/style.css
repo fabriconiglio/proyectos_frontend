@@ -64,6 +64,10 @@ section .caja1 {
           align-items: center;
 }
 
+section .caja1 .cajaprincipal {
+  margin-left: 10rem;
+}
+
 section .caja1 .imagen {
   margin-right: 8rem;
 }
@@ -82,23 +86,17 @@ section .caja1 h1 {
   font-size: 4.375rem;
   width: 30rem;
   letter-spacing: 0.5rem;
-  margin-left: 10rem;
 }
 
 section .caja1 p {
   margin-top: 1.5rem;
-  margin-left: 10rem;
   width: 30rem;
   line-height: 2rem;
   font-size: 1.1rem;
   color: #8b8b8b;
 }
 
-section .caja1 div {
-  margin-left: 10rem;
-}
-
-section .caja1 div button {
+section .caja1 .botones button {
   margin-top: 1rem;
   height: 3.5rem;
   width: 7rem;

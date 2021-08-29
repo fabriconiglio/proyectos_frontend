@@ -36,6 +36,9 @@ section{
             flex-direction: row-reverse;
             justify-content: space-between;
             align-items: center;
+            .cajaprincipal{
+                margin-left: 10rem;
+            }
             .imagen{
                 margin-right: 8rem;
             }
@@ -52,18 +55,15 @@ section{
                 font-size: 4.375rem;
                 width: 30rem;
                 letter-spacing: 0.5rem;
-                margin-left: 10rem;
             }
             p{
                 margin-top: 1.5rem;
-                margin-left: 10rem;
                 width: 30rem;
                 line-height: 2rem;
                 font-size: 1.1rem;
                 color: $colorprimario;
             }
-            div{
-                margin-left: 10rem;
+            .botones{
                 button{
                     @include button;
                     margin-right: 1rem;
