@@ -1,0 +1,312 @@
+@import "variables.scss";
+@import "mixin.scss";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*Encabezado de la pagina*/
+header{
+    height: 5.125rem;
+    .ofertas{
+        background-color:  #222222;
+        height: 1.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:$fuente;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.63rem;
+        line-height: 0.75rem;
+        p{
+            margin-left: 5.625rem;
+        }
+        nav{
+            margin-right: 3.125rem;
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+    .navegacion{
+        background-color: $coloruno;
+        height:3.875rem ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            margin-left: 2.5rem;
+        }
+        nav{
+            width:25rem;
+            margin-right: 2.5rem;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1rem;
+            ul{
+                display: flex;
+                align-items: center;
+                color: $fuente;
+                li::before{
+                    content:url("../img/patita.png");
+                }
+                li{
+                    margin-left: 1rem;
+                }
+            }
+            .menu{
+                display: none;
+            }
+        }
+    }
+}
+/*Cuerpo de la pagina*/
+main{
+    height: 85,43rem;
+    .banner2{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    article{
+        .placer{
+            position:absolute;
+            width: 24.8rem;
+            margin-top:9.375rem;
+            margin-left:70rem;
+            h2{
+                height: 3.4rem;
+                background-color: #FFFFFF;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.875rem;
+                line-height: 2.18rem;
+                text-align: center;
+                border-radius: 0.3rem;
+                padding: 0.6rem;
+                color:$colordos
+            }
+            p{
+                margin-top: 0.8rem;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.3rem;
+                text-align: center;
+                color: $colordos;
+            }
+            .boton1{
+                margin-top: 0.8rem;
+                margin-left: 7.5rem;
+                width: 8.81rem;
+                height: 3.1rem;
+                border-radius: 0.3rem;
+                border: none;
+                background-color: $coloruno;
+                color:$fuente;
+            }
+        }
+    }
+    .destacados{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin-top:1.4rem;
+        }
+        h1{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 2.5rem;
+            color: $colordos;
+        }
+        p{
+            margin-top: 1.2rem;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1rem;
+            line-height: 1.2rem;
+            color: #666666;
+        }
+    }
+    section{
+        width: 53rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:3.125rem ;
+        margin-left:23.5%;
+        article{
+            background-color:#FBFAF6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .productos{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1rem;
+                line-height: 1.2rem;
+                color: $colordos;
+            }
+            .precios{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1rem;
+                line-height: 1.2rem;
+                color: $coloruno;
+            }
+        }
+    }
+    .contactos{
+        margin-top: 4.87rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.56rem;
+            line-height: 1.7rem;
+            margin-bottom: 1.4rem;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            ::placeholder{color: white;}
+            input{
+                @include datos;
+            }
+            input:invalid{
+                border: red solid 0.15rem;
+            }
+            input:valid{
+                border: green solid 0.15rem;
+            }
+            .botones{
+                width: 14.30rem;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 2.57rem;
+                .boton2{
+                    width:6.875rem;
+                    height: 2.125rem;
+                    border-radius: 1rem;
+                    border: none;
+                    background-color: #8A8787;
+                    color: $fuente;
+                }
+                .boton3{
+                    width:6.875rem;
+                    height: 2.125rem;
+                    border-radius: 1rem;
+                    border: none;
+                    background-color:$coloruno;
+                    color: $fuente;
+                }
+            }
+        }
+    }
+    .suscribirse{
+        height: 3.75rem;
+        margin-top: 6.88rem;
+        background-color: $coloruno;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .novedades{
+            margin-left:1.43rem;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1.3rem;
+            line-height: 1.4375rem;
+            color: $fuente;
+        }
+        .formulario{
+            margin-right: 2.93rem;
+            .email{
+                @include datos;
+                background-color: white;
+                margin-top: 0.5rem;
+                color: black;
+            }
+            .email:invalid{
+                border: red solid 0.15rem;
+            }
+            .email:valid{
+                border: green solid 0.15rem;
+            }
+            .boton4{
+                width: 4.375rem;
+                height:2.125rem;
+                border-radius: 1rem;
+                background-color: $colordos;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.56rem;
+                line-height: 0.58rem;
+                color: $fuente;
+                border: none;
+            }
+        }
+    }
+}
+/*Pie de pagina*/
+footer{
+    .referencias{
+        height: 17.75rem;
+        background-color: $colordos;
+        display: flex;
+        flex-direction: column;
+        .datos{
+            margin-top: 1.43rem;
+            margin-left: 4.375rem;
+            display: flex;
+            align-items: center;
+        }
+        #datos2{
+            margin-left:1.56rem;
+            h4{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 1.3rem;
+                line-height: 1.5rem;
+                color: $fuente;
+            }
+            p{
+                font-style: normal;
+                font-weight: bold;
+                font-size:0.6rem;
+                line-height: 0.9rem;
+                color:  #8A8787;;
+            }
+        }
+    }
+    .logo2{
+        position:absolute;
+        margin-top: 8.125rem;
+        margin-left: 83rem;
+    }
+    .derechos{
+        text-align: center;
+        height: 1.2rem;
+        background-color: #222222;
+        color: $fuente;
+        font-style: normal;
+        font-weight: bold;
+        font-size:0.6rem;
+        line-height: 0.9rem;
+    }
+}
+
+
