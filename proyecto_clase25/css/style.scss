@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+}
+/*Encabezado de la pagina*/
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4.68rem;
+    grid-gap: 0.3rem;
+    h1{
+        grid-column: 1/2;
+        align-self: center;
+        margin-left: 0.6rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.56rem;
+        line-height: 1.81rem;
+    }
+    img{
+        grid-column: 5/6;
+        align-self: center;
+        margin-right: 0.6rem;
+        border-radius: 50%;
+    }
+    form{
+        display: none;
+    }
+}
+/*Cuerpo de la pagina*/
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.56rem 6.25rem 1.56rem 34.31rem 5.93rem;
+    justify-content: center;
+    .historia{
+        width: 21.87rem;
+        border-radius: 0.32rem;
+        border: 0.025rem solid rgba(34, 34, 34, 0.5);
+        grid-row:2/3;
+        grid-column: 1/6;
+        justify-self: center;
+        div{
+            margin-left: 1.87rem;
+            margin-right: 0.62rem;
+            margin-top: 1.25rem;
+            display: flex;
+            justify-content:space-around;
+            img{
+                border-radius:50%;
+                margin-right: 1.25rem;
+            }
+            .fotopequeña{
+                display: none;
+            }
+    }
+}
+    .feed{
+            width: 22rem;
+            grid-row: 4/5;
+            grid-column: 1/6;
+            margin-left: 1.56rem;
+            margin-right: 1.56rem;
+            border-radius: 0.32rem;
+            border: 0.025rem solid rgba(34, 34, 34, 0.5);
+            justify-self: center;
+            .nombre{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-row: 4.18rem;
+                .foto{
+                    grid-column: 1/3;
+                    width: 10.18rem;
+                    margin-left: 0.56rem;
+                    margin-top: 0.56rem;
+                    margin-bottom: 0.56rem;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .foto1{
+                        border-radius: 50%;
+                    }
+                    .foto2{
+                        display: none;
+                    }
+                    h2{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 0.9375rem;
+                        line-height: 1.125rem;
+                    }
+                }
+            .puntos{
+                grid-column: 4/5;
+                place-self: center;
+                justify-self: end;
+                margin-right: 1rem;
+            }
+            }
+            .muro{
+                display: grid;
+                grid-template-columns: 0.9rem 20rem 0.9rem;
+                grid-template-rows: 1.25rem 20rem 0.625rem 7rem;
+                .fotogrande{
+                    grid-column: 2/3;
+                    grid-row: 2/3;
+                    place-self: center;
+                }
+                .fotodeescritorio{
+                    display: none;
+                }
+                .reacciones{
+                    grid-column: 2/3;
+                    grid-row:4/6;
+                    img{
+                        margin-right: 1.125rem;
+                    }
+                    p{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 0.625rem;
+                        line-height: 0.75rem;
+                        margin-top: 0.625rem;
+                    }
+                    .comentario{
+                        color: #A49B9B;;
+                    }
+                    span{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .seguidores{
+            display: none;
+        }
+}
+/*Pie de la pagina*/
+footer{
+    height: 1.75rem;
+    padding-top: 0.5rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    line-height:0.75rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #222222;
+}
+/*Version escritorio*/
+@media(min-width:1280px){
+/*Encabezado de la pagina*/
+    header{
+        display: grid;
+        grid-template-columns:repeat(12,1fr);
+        justify-self: center;
+        h1{
+            grid-column: 2/3;
+        }
+        form{
+            display: block;
+            grid-row: 1;
+            grid-column: 5/8;
+            align-self: center;
+            ::placeholder{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 0.875rem;
+                line-height: 1rem;
+                color: #222222;
+            }
+            input{
+                width: 25rem;
+                height: 2.5rem;
+                padding: 0.75rem;
+                background-color: #FAFAFA;
+                border: 0.3px solid #222222;
+                border-radius: 0.32rem;
+            }
+        }
+        img{
+            grid-column: 12/13;
+        }
+    }
+/*Cuerpo de la pagina*/
+main{
+    background-color: #FAFAFA;
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 2.5rem 6.25rem 2.5rem 45rem 6.875rem;
+    .historia{
+        background-color: white;
+        width: 37.5rem;
+        height: 6.25rem;
+        grid-column: 2/7;
+        grid-row: 2/3;
+        justify-self: unset;
+        div{
+            .fotopequeña{
+                display: block;
+            }
+        }
+    }
+    .feed{
+        background-color: white;
+        width: 37.5rem;
+        height: 45rem;
+        grid-column: 2/7;
+        justify-self:unset;
+        margin: 0;
+        .muro{
+            grid-template-columns: 3.5rem 30.5rem 3.5rem;
+            grid-template-rows: 1.25rem 30.5rem 0.625rem 7rem;
+            .fotogrande{
+                display: none;
+            }
+            .fotodeescritorio{
+                display: block;
+                grid-column: 2/3;
+                grid-row: 2/3;
+            }
+        }
+    }
+    .seguidores{
+        display: block;
+        grid-column: 9/11;
+        grid-row: 2;
+        width: 17.75rem;
+        height: 10.94rem;
+        article{
+            display: grid;
+            grid-template-columns: 3.93rem 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            margin-top: 40px;
+            img{
+                grid-column: 1/2;
+                border-radius: 50%;
+                margin-left: 0.375rem;
+            }
+            span{
+                grid-column: 2/3;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.625rem;
+                line-height: 0.75rem;
+                color: #000000;
+                align-self: center;
+            }
+            .abril{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 0.625rem;
+                line-height: 0.75rem;
+                display: flex;
+                color: #808080;
+            }
+            .amigos{
+                margin-left: -1.25rem;
+                align-self: center;
+            }
+            .sugerencia{
+                grid-column: 1/3;
+                margin-top: 2.125rem;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.625rem;
+                line-height: 0.75rem;
+                display: flex;
+                color: #808080;
+            }
+            .vinculo{
+                grid-column: 3/4;
+                align-self: center;
+                a{
+                    text-decoration:none;
+                    color: #1CA0F6;;
+                }
+            }
+            .fotopequeña1{
+                width: 1.875rem;
+                height: 1.875rem;
+                align-self: center;
+            }
+        }
+    }
+}
+}
